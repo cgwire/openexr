@@ -14,8 +14,8 @@ steps:
     pwd
     ls
     ./bootstrap
-    ./configure
-    make
+    ./configure --prefix=$PWD
+    make -j4
     make install
   displayName: 'make'
   workingDirectory: IlmBase
