@@ -13,7 +13,7 @@ steps:
 - script: |
     pwd
     ls
-    SUDO apt install -y wget
+    sudo apt install -y wget
     ./bootstrap
     ./configure --prefix=$PWD
     make -j4
