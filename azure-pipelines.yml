@@ -11,6 +11,8 @@ pool:
 
 steps:
 - script: |
+    pwd
+    ls
     ./configure
     make
     make install
