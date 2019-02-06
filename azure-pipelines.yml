@@ -15,4 +15,4 @@ steps:
     make
     make install
   displayName: 'make'
-  workingDirectory: /${build.SourcesDirectory}/IlmBase
+  workingDirectory: IlmBase
