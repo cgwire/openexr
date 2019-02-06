@@ -13,6 +13,7 @@ steps:
 - script: |
     pwd
     ls
+    ./bootstrap
     ./configure
     make
     make install
